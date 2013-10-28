@@ -9,6 +9,13 @@ Gradient
   
   background: linear_gradient(to bottom, red, blue)
   background: radial_gradeint(red,blue)
+```
 
+Columns
+-------
+```css
+  -moz-columns:3;
+  -webkit-columns:3;
+  columns:3;  
 ```
 

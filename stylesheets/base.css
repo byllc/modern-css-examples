@@ -3,11 +3,11 @@ body{
  background: #dddddd;
 }
 
-h1{ font-size: 3em; }
-h2{ font-size: 2.5em; }
-h3{ font-size: 2em; }
-h4{ font-size: 1.5em; }
-h5{ font-size: 1em; }
+h1{ font-size: 2.5em; }
+h2{ font-size: 2.0em; }
+h3{ font-size: 1.5em; }
+h4{ font-size: 1.0em; }
+h5{ font-size: 0.5em; }
 
 
 .example{
@@ -21,6 +21,7 @@ h5{ font-size: 1em; }
   margin: auto;
   width: 600px;
   background-color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .clear{
