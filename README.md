@@ -19,3 +19,21 @@ Columns
   columns:3;  
 ```
 
+Value Calculation
+-----------------
+```css
+  /* Can use with any length or size attribute */
+  width: calc(100% - 40px);
+```
+
+Before And After
+----------------
+```css
+selector::before{
+  content:'Defined via CSS-- ';
+}
+
+selector::after{
+  content:' --Defined via CSS';
+}
+```
