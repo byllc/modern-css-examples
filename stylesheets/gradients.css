@@ -1,0 +1,24 @@
+.linear_gradient{
+  background: linear-gradient(to bottom, orange,blue)
+}
+
+.linear_gradient_to_left{
+  background: linear-gradient(to left, orange,red)
+}
+
+.linear_gradient_to_corner{
+  background: linear-gradient(to top left, orange,black)
+}
+
+.radial_gradient{
+  background: radial-gradient(purple,black)
+}
+
+.gradient_box{
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  float: left;
+  color: #ffffff;
+}
+    

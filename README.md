@@ -1,4 +1,4 @@
-modern-css-examples
+Modern CSS Examples
 ===================
 
-A collection of modern CSS techniques with emerging Browser support
+ Examples CSS 3 tricks that have adequate browser support. 
