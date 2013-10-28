@@ -1,0 +1,8 @@
+body {
+  counter-reset: section;  /* Set to 0 */
+}
+
+.counted:before {
+  counter-increment: section;  
+  content: "Section " counter(section) ": " 
+}

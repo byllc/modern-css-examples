@@ -79,6 +79,19 @@ Rounded Corners
  -webkit-border-radius: 30px;
  -khtml-border-radius: 30px;
  border-radius: 30px;
+```
 
+Counters
+--------
+```css
+
+body {
+  counter-reset: section;  /* Set to 0 */
+}
+
+p:before {
+  counter-increment: section;  
+  content: "Section " counter(section) ": " 
+}
 ```
 
