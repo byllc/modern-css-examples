@@ -71,3 +71,13 @@ Animations
 }
 ```
 
+Rounded Corners
+---------------
+```css
+ -moz-border-radius: 30px;
+ -webkit-border-radius: 30px;
+ -khtml-border-radius: 30px;
+ border-radius: 30px;
+}
+```
+
