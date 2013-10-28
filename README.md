@@ -1,7 +1,7 @@
 Modern CSS Examples
 ===================
 
- Example CSS 3 tricks that are starting have adequate browser support. 
+ Example CSS 3 tricks that are starting have adequate browser support. These should all work on the latest version of the major browsers. Most have worked for several generations of chrome or webkit based browser in general. 
 
 Gradient
 --------
