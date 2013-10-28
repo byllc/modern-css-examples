@@ -1,0 +1,6 @@
+.full_minus_20px{
+  width: calc(100% - 50px);
+  border: 1px dotted;
+  background-color: khaki;
+  padding: 5px;
+}

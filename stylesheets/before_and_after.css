@@ -1,0 +1,11 @@
+.before_and_after{
+  background-color: khaki;
+}
+
+.before_and_after::before{
+  content:'Defined via CSS-- ';
+}
+
+.before_and_after::after{
+  content:' --Defined via CSS';
+}

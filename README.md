@@ -37,3 +37,37 @@ selector::after{
   content:' --Defined via CSS';
 }
 ```
+Animations
+----------
+```css
+.animator_container{
+  position: relative;
+  height: 200px;
+}
+
+.animator{
+  width:100px;
+  height:100px;
+  background:purple;
+  position: absolute;
+  animation:myAnimation 20s;
+  -webkit-animation:myAnimation 20s; /* Safari and Chrome */
+}
+
+@keyframes myAnimation{
+  0%   {background: purple; left: 0px; top:10px;}
+  25%  {background: yellow; left:400px; top:10px;}
+  50%  {background: blue; left:400px; top:100px;}
+  75%  {background: green; left:0px; top:100px;}
+  100% {background: black; left:0px; top:10px;}
+}
+
+@-webkit-keyframes myAnimation{ /* Safari and Chrome */
+  0%   {background: purple; left: 0px; top:10px;}
+  25%  {background: yellow; left:400px; top:10px;}
+  50%  {background: blue; left:400px; top:100px;}
+  75%  {background: green; left:0px; top:100px;}
+  100% {background: black; left:0px; top:10px;}
+}
+```
+
